@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842054FD2CEFC38300E1BC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842054F12CEFC38300E1BC11 /* Assets.xcassets */; };
+		842054FF2CEFC38300E1BC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842054F42CEFC38300E1BC11 /* LaunchScreen.storyboard */; };
+		842055002CEFC38300E1BC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842054F72CEFC38300E1BC11 /* Main.storyboard */; };
+		842055012CEFC38300E1BC11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842054F02CEFC38300E1BC11 /* AppDelegate.m */; };
+		842055022CEFC38300E1BC11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842054F52CEFC38300E1BC11 /* main.m */; };
+		842055032CEFC38300E1BC11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842054F92CEFC38300E1BC11 /* SceneDelegate.m */; };
+		842055042CEFC38300E1BC11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842054FB2CEFC38300E1BC11 /* ViewController.m */; };
+		8420550B2CEFC3D300E1BC11 /* ViewRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8420550A2CEFC3D300E1BC11 /* ViewRenderer.mm */; };
+		EF3208CC6E5351BFA6877807 /* Pods_OpenGLESCpp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8405197A2B9FF544DF913A2 /* Pods_OpenGLESCpp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43F59C5142697FE1E5777429 /* Pods-OpenGLESCpp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESCpp.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLESCpp/Pods-OpenGLESCpp.debug.xcconfig"; sourceTree = "<group>"; };
+		77FF29277FD23D9A64CBD786 /* Pods-OpenGLESCpp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESCpp.release.xcconfig"; path = "Target Support Files/Pods-OpenGLESCpp/Pods-OpenGLESCpp.release.xcconfig"; sourceTree = "<group>"; };
+		842054D22CEFC37300E1BC11 /* OpenGLESCpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESCpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842054EF2CEFC38300E1BC11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842054F02CEFC38300E1BC11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842054F12CEFC38300E1BC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842054F22CEFC38300E1BC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842054F32CEFC38300E1BC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842054F52CEFC38300E1BC11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842054F62CEFC38300E1BC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842054F82CEFC38300E1BC11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		842054F92CEFC38300E1BC11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		842054FA2CEFC38300E1BC11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		842054FB2CEFC38300E1BC11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842055092CEFC3D300E1BC11 /* ViewRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewRenderer.h; sourceTree = "<group>"; };
+		8420550A2CEFC3D300E1BC11 /* ViewRenderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewRenderer.mm; sourceTree = "<group>"; };
+		8420550C2CEFCCE300E1BC11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
+		A8405197A2B9FF544DF913A2 /* Pods_OpenGLESCpp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGLESCpp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842054CF2CEFC37300E1BC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3208CC6E5351BFA6877807 /* Pods_OpenGLESCpp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6F9111CF7A809FB591563B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8405197A2B9FF544DF913A2 /* Pods_OpenGLESCpp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C10C84E7BFC31970BD401BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43F59C5142697FE1E5777429 /* Pods-OpenGLESCpp.debug.xcconfig */,
+				77FF29277FD23D9A64CBD786 /* Pods-OpenGLESCpp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		842054C92CEFC37300E1BC11 = {
+			isa = PBXGroup;
+			children = (
+				8420550C2CEFCCE300E1BC11 /* README.md */,
+				842054FC2CEFC38300E1BC11 /* OpenGLESCpp */,
+				842054D32CEFC37300E1BC11 /* Products */,
+				4C10C84E7BFC31970BD401BD /* Pods */,
+				0D6F9111CF7A809FB591563B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		842054D32CEFC37300E1BC11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842054D22CEFC37300E1BC11 /* OpenGLESCpp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842054FC2CEFC38300E1BC11 /* OpenGLESCpp */ = {
+			isa = PBXGroup;
+			children = (
+				842055052CEFC38600E1BC11 /* Application */,
+				842055072CEFC39B00E1BC11 /* UI */,
+				842055062CEFC39500E1BC11 /* Source */,
+				842055082CEFC3A500E1BC11 /* Resources */,
+			);
+			path = OpenGLESCpp;
+			sourceTree = "<group>";
+		};
+		842055052CEFC38600E1BC11 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				842054F22CEFC38300E1BC11 /* Info.plist */,
+				842054F42CEFC38300E1BC11 /* LaunchScreen.storyboard */,
+				842054F52CEFC38300E1BC11 /* main.m */,
+				842054EF2CEFC38300E1BC11 /* AppDelegate.h */,
+				842054F02CEFC38300E1BC11 /* AppDelegate.m */,
+				842054F82CEFC38300E1BC11 /* SceneDelegate.h */,
+				842054F92CEFC38300E1BC11 /* SceneDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		842055062CEFC39500E1BC11 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				842055092CEFC3D300E1BC11 /* ViewRenderer.h */,
+				8420550A2CEFC3D300E1BC11 /* ViewRenderer.mm */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		842055072CEFC39B00E1BC11 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				842054F72CEFC38300E1BC11 /* Main.storyboard */,
+				842054FA2CEFC38300E1BC11 /* ViewController.h */,
+				842054FB2CEFC38300E1BC11 /* ViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		842055082CEFC3A500E1BC11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				842054F12CEFC38300E1BC11 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842054D12CEFC37300E1BC11 /* OpenGLESCpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842054EA2CEFC37400E1BC11 /* Build configuration list for PBXNativeTarget "OpenGLESCpp" */;
+			buildPhases = (
+				A2A602841A398177EC73CDB4 /* [CP] Check Pods Manifest.lock */,
+				842054CE2CEFC37300E1BC11 /* Sources */,
+				842054CF2CEFC37300E1BC11 /* Frameworks */,
+				842054D02CEFC37300E1BC11 /* Resources */,
+				6E108BCEA7EC489C378B8F9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLESCpp;
+			productName = OpenGLESCpp;
+			productReference = 842054D22CEFC37300E1BC11 /* OpenGLESCpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842054CA2CEFC37300E1BC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					842054D12CEFC37300E1BC11 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 842054CD2CEFC37300E1BC11 /* Build configuration list for PBXProject "OpenGLESCpp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842054C92CEFC37300E1BC11;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 842054D32CEFC37300E1BC11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842054D12CEFC37300E1BC11 /* OpenGLESCpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842054D02CEFC37300E1BC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842054FD2CEFC38300E1BC11 /* Assets.xcassets in Resources */,
+				842054FF2CEFC38300E1BC11 /* LaunchScreen.storyboard in Resources */,
+				842055002CEFC38300E1BC11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E108BCEA7EC489C378B8F9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenGLESCpp/Pods-OpenGLESCpp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenGLESCpp/Pods-OpenGLESCpp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenGLESCpp/Pods-OpenGLESCpp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A602841A398177EC73CDB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLESCpp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842054CE2CEFC37300E1BC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8420550B2CEFC3D300E1BC11 /* ViewRenderer.mm in Sources */,
+				842055012CEFC38300E1BC11 /* AppDelegate.m in Sources */,
+				842055022CEFC38300E1BC11 /* main.m in Sources */,
+				842055032CEFC38300E1BC11 /* SceneDelegate.m in Sources */,
+				842055042CEFC38300E1BC11 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842054F42CEFC38300E1BC11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842054F32CEFC38300E1BC11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		842054F72CEFC38300E1BC11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842054F62CEFC38300E1BC11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842054EB2CEFC37400E1BC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F59C5142697FE1E5777429 /* Pods-OpenGLESCpp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenGLESCpp/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.at.OpenGLESCpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842054EC2CEFC37400E1BC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FF29277FD23D9A64CBD786 /* Pods-OpenGLESCpp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenGLESCpp/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.at.OpenGLESCpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		842054ED2CEFC37400E1BC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"GLES_SILENCE_DEPRECATION=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842054EE2CEFC37400E1BC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "GLES_SILENCE_DEPRECATION=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842054CD2CEFC37300E1BC11 /* Build configuration list for PBXProject "OpenGLESCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842054ED2CEFC37400E1BC11 /* Debug */,
+				842054EE2CEFC37400E1BC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842054EA2CEFC37400E1BC11 /* Build configuration list for PBXNativeTarget "OpenGLESCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842054EB2CEFC37400E1BC11 /* Debug */,
+				842054EC2CEFC37400E1BC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842054CA2CEFC37300E1BC11 /* Project object */;
+}

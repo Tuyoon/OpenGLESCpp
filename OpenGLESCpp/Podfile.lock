@@ -1,0 +1,16 @@
+PODS:
+  - ShapeRenderer (1.0.0)
+
+DEPENDENCIES:
+  - ShapeRenderer (from `../OpenGLESCppPods/ShapeRenderer`)
+
+EXTERNAL SOURCES:
+  ShapeRenderer:
+    :path: "../OpenGLESCppPods/ShapeRenderer"
+
+SPEC CHECKSUMS:
+  ShapeRenderer: 31abb4d58c704c3e0fe20b5812ff495ef6884c5e
+
+PODFILE CHECKSUM: de71793d74fad1f43dcb6d597c0843af99d119fc
+
+COCOAPODS: 1.16.2

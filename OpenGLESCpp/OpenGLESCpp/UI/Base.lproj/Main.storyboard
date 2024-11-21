@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BBu-jG-NtB">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GLKit View Controller-->
+        <scene sceneID="ute-EU-44i">
+            <objects>
+                <glkViewController preferredFramesPerSecond="30" id="BBu-jG-NtB" customClass="ViewController" sceneMemberID="viewController">
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" id="UlN-95-Cfh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FZA-Fx-ezj">
+                                <rect key="frame" x="18" y="768" width="357" height="31"/>
+                                <connections>
+                                    <action selector="rotationSliderChanged:" destination="BBu-jG-NtB" eventType="valueChanged" id="hM9-oO-DHc"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJs-I2-oFA">
+                                <rect key="frame" x="191" y="739" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DMa-qe-aSx"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstItem="FZA-Fx-ezj" firstAttribute="leading" secondItem="DMa-qe-aSx" secondAttribute="leading" constant="20" id="4lV-qP-5T1"/>
+                            <constraint firstItem="DMa-qe-aSx" firstAttribute="trailing" secondItem="FZA-Fx-ezj" secondAttribute="trailing" constant="20" id="BA1-2v-TT5"/>
+                            <constraint firstItem="DMa-qe-aSx" firstAttribute="bottom" secondItem="FZA-Fx-ezj" secondAttribute="bottom" constant="20" id="cY4-UZ-qeK"/>
+                            <constraint firstItem="pJs-I2-oFA" firstAttribute="centerX" secondItem="FZA-Fx-ezj" secondAttribute="centerX" id="lLW-Fs-m0a"/>
+                            <constraint firstItem="FZA-Fx-ezj" firstAttribute="top" secondItem="pJs-I2-oFA" secondAttribute="bottom" constant="8" symbolic="YES" id="vJ5-9v-nRa"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="delegate" destination="BBu-jG-NtB" id="sdo-DX-v6P"/>
+                        </connections>
+                    </glkView>
+                    <connections>
+                        <outlet property="angleDegreeLabel" destination="pJs-I2-oFA" id="k9M-cS-qMp"/>
+                        <outlet property="rotationSlider" destination="FZA-Fx-ezj" id="2cw-8L-f1g"/>
+                    </connections>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kd3-oR-OPu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
